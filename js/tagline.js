@@ -16,5 +16,6 @@ window.onload = function(){
 	];
 	var randomItem = taglines[Math.floor(Math.random()*taglines.length)];
 
-    document.getElementById('tagline').innerHTML = randomItem;
+    document.getElementById('tagline-desktop').innerHTML = randomItem;
+    document.getElementById('tagline-mobile').innerHTML = randomItem;
 };
