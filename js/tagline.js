@@ -12,7 +12,8 @@ window.onload = function(){
 		"Texas shaped waffle iron not included!",
 		"Contains swag!",
 		"Please don't eat the Ashley bread!",
-		"\"Tired, checked in.\""
+		"\"Tired, checked in.\"",
+		"https://youtu.be/NL_Iceg5TmY"
 	];
 	var randomItem = taglines[Math.floor(Math.random()*taglines.length)];
 

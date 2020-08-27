@@ -1,13 +1,15 @@
 body{
-	color:gainsboro;
+    
+    background-size: cover;
+    
+    color:gainsboro;
 	text-align: center;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
 
-html{
-	background-image: linear-gradient(#18121a, #261c29);
-	background-size:100%;
-	min-height: 100%;
-}
 
 h1, h3{
 	font-family: 'Happy Monkey', cursive;
@@ -91,10 +93,6 @@ ul {
 	/*vertical spacer*/
 	#spacer {
 		padding:20px 0px 0px 0px;
-	}
-
-	#spacer-small {
-		padding:5px 0px 0px 0px;
 	}
 /*situational section end*/
 
