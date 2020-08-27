@@ -54,10 +54,11 @@ ul {
 	button{
 		padding:5px;
 		margin:15px;
+		width:220px;
 	}
 
 	#button-wrapper{
-		width:55%;
+		width:65%;
 		margin:auto;
 		margin-bottom:5%;
 	}
