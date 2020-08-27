@@ -25,6 +25,7 @@ h1{
 }
 h3{
 	margin-bottom:0%;
+	margin-top:0%;
 }
 
 ul {
@@ -50,6 +51,10 @@ ul {
 		color:transparent;
 	}
 
+	button{
+		padding:5px;
+	}
+
 
 /* button junk stops here */
 
@@ -58,9 +63,13 @@ ul {
 }
 
 .wrapper{
-	padding:1.5em 0em 1.5em 0em;
+	padding:1em 0em 1em 0em;
 }
 
+.text-wrapper{
+	width:60%;
+	margin:auto;
+}
 
 /* section for weird situational stuff */
 
@@ -74,14 +83,18 @@ ul {
 	}
 
 	/*makes sure the taglines are properly formatted*/
-	#tagline{
+	#tagline-desktop, #tagline-mobile{
 		margin-top:0%;
 		font-family: 'Happy Monkey', cursive;
 	}
 
 	/*vertical spacer*/
 	#spacer {
-		padding:50px 0px 0px 0px;
+		padding:20px 0px 0px 0px;
+	}
+
+	#spacer-small {
+		padding:5px 0px 0px 0px;
 	}
 /*situational section end*/
 
@@ -98,9 +111,11 @@ ul {
 	    .portrait  { display: block; visibility: visible; }
 	}
     /*------------------------------------------------------*/
-    #rainbow {
+    #rainbow-link {
 	  background-image: linear-gradient(to left, magenta, deepskyblue, green, yellow, orange, red);
 	  -webkit-background-clip: text;
+	  margin:5px;
+	  padding:5px;
 	}
 
     #rainbow-p {
