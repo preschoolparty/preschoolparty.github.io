@@ -123,6 +123,7 @@ ul {
 		width:13.5em;
 		height:5.25em;
 		margin:1%;
+		max-width: 60%
 	}
 
 	#joinzoom:hover{
