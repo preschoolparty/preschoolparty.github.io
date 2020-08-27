@@ -94,11 +94,23 @@ ul {
 	#tagline-desktop, #tagline-mobile{
 		margin-top:0%;
 		font-family: 'Happy Monkey', cursive;
+		font-size:14px;
 	}
 
 	/*vertical spacer*/
 	#spacer {
 		padding:20px 0px 0px 0px;
+	}
+
+	#joinzoom{
+		border-radius: 20px;
+		width:13.5em;
+		height:5.25em;
+		margin:1%;
+	}
+
+	#joinzoom:hover{
+		filter: brightness(130%);
 	}
 /*situational section end*/
 
