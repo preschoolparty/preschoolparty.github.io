@@ -65,7 +65,10 @@ ul {
 }
 
 .wrapper{
-	padding:1em 0em 1em 0em;
+	border-radius:20px;
+	background: rgba(0, 0, 0, 0.5);
+	width:80%;
+	margin:auto;
 }
 
 .text-wrapper{
@@ -82,6 +85,9 @@ ul {
 	    left:10%;
 	    top: 50%;
 	    transform: translateY(-50%);
+	    border-radius:20px;
+		background: rgba(0, 0, 0, 0.5);
+		padding:10px;
 	}
 
 	/*makes sure the taglines are properly formatted*/
