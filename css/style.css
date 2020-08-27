@@ -126,7 +126,7 @@ ul {
 	  font-size:2.5em;
 	  background-image: linear-gradient(to left, magenta, deepskyblue, green, yellow, orange, red);
 	  background-repeat:no-repeat;
-	  background-size: 400px;
+	  background-size: 400px auto;
 	  background-position: center;
 	  -webkit-background-clip: text;
 	}
@@ -136,7 +136,7 @@ ul {
 	  font-size:3em;
 	  background-image: linear-gradient(to left, magenta, deepskyblue, green, yellow, orange, red);
 	  background-repeat:no-repeat;
-	  background-size: 500px;
+	  background-size: 500px auto;
 	  background-position: center;
 	  -webkit-background-clip: text;
 	}
