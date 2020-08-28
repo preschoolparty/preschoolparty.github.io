@@ -30,6 +30,13 @@
 
 			<p>Before we get to the party, here's some ground rules. </p> <!--reword this pls-->
 			
+			<script>
+				var ul = document.querySelector('ul');
+				for (var i = ul.children.length; i >= 0; i--) {
+				    ul.appendChild(ul.children[Math.random() * i | 0]);
+				}
+			</script>
+
 			<ul id="rules-list">
 				<li>Camera and mic are optional, but preferred!</li>
 				<li>Please be as respectful to one another as you are in studio time!</li>
